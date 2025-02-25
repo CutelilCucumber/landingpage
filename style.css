@@ -1,0 +1,120 @@
+body {
+font-family: Roboto;
+display: flex;
+flex-direction: column;
+margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: white;
+
+    
+}
+h2 {
+    flex-shrink: 0;
+    margin-top: 8px;
+}
+h1 {
+    margin: 0px 0px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin-left: auto;
+    margin-top: 8px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+button {
+    color: white;
+    background-color: rgb(0, 119, 255);
+    padding: 4px 12px;
+    border-radius: 5px;
+    border: 2px white;
+}
+
+
+.header {
+display: flex;
+flex-direction: column;
+padding: 0px 100px;
+padding-bottom: 48px;
+color: white;
+background-color: #1F2937;
+flex: 1;
+}
+    .top {
+        display: flex;
+        /* align-items: first baseline; */
+    }
+    .head {
+        display: flex;
+        gap: 20px;
+    }
+        .hero {
+            flex-grow: 1;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .hero button {
+            margin-right: auto;
+            margin-top: auto;
+        }
+        .head img {
+            flex-shrink: 1;
+            width: 350px;
+        }
+.info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.examples {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    margin: 80px;
+    margin-top: 0px;
+}
+  .ex {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    padding: 16px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    
+  }
+  .ex img {
+    object-fit: contain;
+    max-width: 100%;
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+  }
+
+  .quote {
+    background-color: rgb(146, 144, 155);
+    padding: 100px 200px;
+    font-style: italic;
+    font-size: 20px;
+  }
+ .quote h4 {
+    margin: 0;
+    text-align: end;
+    font-style: normal;
+  }
+
+  .footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 12px;
+  }
